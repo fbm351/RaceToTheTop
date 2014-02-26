@@ -13,7 +13,7 @@
 		D339CCD018BE740E00A18C4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D339CCCE18BE740E00A18C4E /* InfoPlist.strings */; };
 		D339CCD218BE740E00A18C4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D339CCD118BE740E00A18C4E /* main.m */; };
 		D339CCD618BE740E00A18C4E /* FMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D339CCD518BE740E00A18C4E /* FMAppDelegate.m */; };
-		D339CCD918BE740E00A18C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D339CCD718BE740E00A18C4E /* Main.storyboard */; };
+		D339CCD918BE740E00A18C4E /* Main.iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D339CCD718BE740E00A18C4E /* Main.iPhone.storyboard */; };
 		D339CCDC18BE740E00A18C4E /* FMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D339CCDB18BE740E00A18C4E /* FMViewController.m */; };
 		D339CCDE18BE740E00A18C4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D339CCDD18BE740E00A18C4E /* Images.xcassets */; };
 		D339CCE518BE740E00A18C4E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D339CCE418BE740E00A18C4E /* XCTest.framework */; };
@@ -21,6 +21,10 @@
 		D339CCE718BE740E00A18C4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D339CCC918BE740E00A18C4E /* UIKit.framework */; };
 		D339CCEF18BE740E00A18C4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D339CCED18BE740E00A18C4E /* InfoPlist.strings */; };
 		D339CCF118BE740E00A18C4E /* Race_to_the_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D339CCF018BE740E00A18C4E /* Race_to_the_TopTests.m */; };
+		D339CCFC18BE793100A18C4E /* FMSpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = D339CCFB18BE793100A18C4E /* FMSpaceShipView.m */; };
+		D339CCFE18BE802500A18C4E /* Main.iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D339CCFD18BE802500A18C4E /* Main.iPad.storyboard */; };
+		D339CD0018BE82A000A18C4E /* mount-fuji-and-mount-hoei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D339CCFF18BE82A000A18C4E /* mount-fuji-and-mount-hoei.jpg */; };
+		D339CD0318BE951700A18C4E /* FMMountainPath.m in Sources */ = {isa = PBXBuildFile; fileRef = D339CD0218BE951700A18C4E /* FMMountainPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +48,7 @@
 		D339CCD318BE740E00A18C4E /* Race to the Top-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Race to the Top-Prefix.pch"; sourceTree = "<group>"; };
 		D339CCD418BE740E00A18C4E /* FMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMAppDelegate.h; sourceTree = "<group>"; };
 		D339CCD518BE740E00A18C4E /* FMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMAppDelegate.m; sourceTree = "<group>"; };
-		D339CCD818BE740E00A18C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D339CCD818BE740E00A18C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.iPhone.storyboard; sourceTree = "<group>"; };
 		D339CCDA18BE740E00A18C4E /* FMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMViewController.h; sourceTree = "<group>"; };
 		D339CCDB18BE740E00A18C4E /* FMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMViewController.m; sourceTree = "<group>"; };
 		D339CCDD18BE740E00A18C4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +57,12 @@
 		D339CCEC18BE740E00A18C4E /* Race to the TopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Race to the TopTests-Info.plist"; sourceTree = "<group>"; };
 		D339CCEE18BE740E00A18C4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D339CCF018BE740E00A18C4E /* Race_to_the_TopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Race_to_the_TopTests.m; sourceTree = "<group>"; };
+		D339CCFA18BE793100A18C4E /* FMSpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMSpaceShipView.h; sourceTree = "<group>"; };
+		D339CCFB18BE793100A18C4E /* FMSpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMSpaceShipView.m; sourceTree = "<group>"; };
+		D339CCFD18BE802500A18C4E /* Main.iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.iPad.storyboard; sourceTree = "<group>"; };
+		D339CCFF18BE82A000A18C4E /* mount-fuji-and-mount-hoei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mount-fuji-and-mount-hoei.jpg"; sourceTree = "<group>"; };
+		D339CD0118BE951700A18C4E /* FMMountainPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMountainPath.h; sourceTree = "<group>"; };
+		D339CD0218BE951700A18C4E /* FMMountainPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMountainPath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +124,12 @@
 			children = (
 				D339CCD418BE740E00A18C4E /* FMAppDelegate.h */,
 				D339CCD518BE740E00A18C4E /* FMAppDelegate.m */,
-				D339CCD718BE740E00A18C4E /* Main.storyboard */,
+				D339CCD718BE740E00A18C4E /* Main.iPhone.storyboard */,
+				D339CCFD18BE802500A18C4E /* Main.iPad.storyboard */,
+				D339CD0118BE951700A18C4E /* FMMountainPath.h */,
+				D339CD0218BE951700A18C4E /* FMMountainPath.m */,
+				D339CCFA18BE793100A18C4E /* FMSpaceShipView.h */,
+				D339CCFB18BE793100A18C4E /* FMSpaceShipView.m */,
 				D339CCDA18BE740E00A18C4E /* FMViewController.h */,
 				D339CCDB18BE740E00A18C4E /* FMViewController.m */,
 				D339CCDD18BE740E00A18C4E /* Images.xcassets */,
@@ -126,6 +141,7 @@
 		D339CCCC18BE740E00A18C4E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D339CCFF18BE82A000A18C4E /* mount-fuji-and-mount-hoei.jpg */,
 				D339CCCD18BE740E00A18C4E /* Race to the Top-Info.plist */,
 				D339CCCE18BE740E00A18C4E /* InfoPlist.strings */,
 				D339CCD118BE740E00A18C4E /* main.m */,
@@ -229,9 +245,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D339CD0018BE82A000A18C4E /* mount-fuji-and-mount-hoei.jpg in Resources */,
+				D339CCFE18BE802500A18C4E /* Main.iPad.storyboard in Resources */,
 				D339CCDE18BE740E00A18C4E /* Images.xcassets in Resources */,
 				D339CCD018BE740E00A18C4E /* InfoPlist.strings in Resources */,
-				D339CCD918BE740E00A18C4E /* Main.storyboard in Resources */,
+				D339CCD918BE740E00A18C4E /* Main.iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D339CCD218BE740E00A18C4E /* main.m in Sources */,
+				D339CD0318BE951700A18C4E /* FMMountainPath.m in Sources */,
 				D339CCD618BE740E00A18C4E /* FMAppDelegate.m in Sources */,
+				D339CCFC18BE793100A18C4E /* FMSpaceShipView.m in Sources */,
 				D339CCDC18BE740E00A18C4E /* FMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,12 +303,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		D339CCD718BE740E00A18C4E /* Main.storyboard */ = {
+		D339CCD718BE740E00A18C4E /* Main.iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D339CCD818BE740E00A18C4E /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main.iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		D339CCED18BE740E00A18C4E /* InfoPlist.strings */ = {
@@ -382,7 +402,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Race to the Top/Race to the Top-Prefix.pch";
 				INFOPLIST_FILE = "Race to the Top/Race to the Top-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,7 +417,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Race to the Top/Race to the Top-Prefix.pch";
 				INFOPLIST_FILE = "Race to the Top/Race to the Top-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
