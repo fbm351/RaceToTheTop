@@ -11,5 +11,6 @@
 @interface FMMountainPath : NSObject
 
 + (NSArray *)mountainPathsForRect:(CGRect)rect;
++ (UIBezierPath *)tapTargetForPath:(UIBezierPath *)path;
 
 @end

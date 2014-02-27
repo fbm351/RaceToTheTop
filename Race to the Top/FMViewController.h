@@ -10,4 +10,6 @@
 
 @interface FMViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *scoreLable;
+
 @end
